@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  inquirypo:
+    build:
+      context: ./
+      dockerfile: DockerFile
+    image: poiweb
+    ports:
+      - 8081
